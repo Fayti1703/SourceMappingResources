@@ -1,0 +1,807 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6969"
+	"mapversion" "12"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "12"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "7"
+			"plane" "(-80 0 48) (144 0 48) (144 -4 48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-80 -4 -48) (144 -4 -48) (144 0 -48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-80 0 48) (-80 -4 48) (-80 -4 -48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(144 0 -48) (144 -4 -48) (144 -4 48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(144 0 48) (-80 0 48) (-80 0 -48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(144 -4 -48) (-80 -4 -48) (-80 -4 48)"
+			"material" "WOOD/WOOD_INT_10"
+			"uaxis" "[1 0 0 306] 0.25"
+			"vaxis" "[0 0 -1 150] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 200 205"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "10"
+		side
+		{
+			"id" "13"
+			"plane" "(-88 -4 56) (144 -4 56) (144 -16 56)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-88 -16 48) (144 -16 48) (144 -4 48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-88 -4 56) (-88 -16 56) (-88 -16 48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(144 -4 48) (144 -16 48) (144 -16 56)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(144 -4 56) (-88 -4 56) (-88 -4 48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(144 -16 48) (-88 -16 48) (-88 -16 56)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 130 235"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "11"
+		side
+		{
+			"id" "30"
+			"plane" "(-88 -4 -48) (144 -4 -48) (144 -16 -48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-88 -16 -56) (144 -16 -56) (144 -4 -56)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-88 -4 -48) (-88 -16 -48) (-88 -16 -56)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(144 -4 -56) (144 -16 -56) (144 -16 -48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(144 -4 -48) (-88 -4 -48) (-88 -4 -56)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(144 -16 -56) (-88 -16 -56) (-88 -16 -48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 130 235"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "99"
+		side
+		{
+			"id" "31"
+			"plane" "(144 -4 48) (152 -4 48) (152 -16 48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(144 -16 -48) (152 -16 -48) (152 -4 -48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(144 -4 48) (144 -16 48) (144 -16 -48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(152 -4 -48) (152 -16 -48) (152 -16 48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(152 -4 48) (144 -4 48) (144 -4 -48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36"
+			"plane" "(152 -16 -48) (144 -16 -48) (144 -16 48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 169 226"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "108"
+		side
+		{
+			"id" "48"
+			"plane" "(-88 -16 -48) (-80 -16 -48) (-80 -4 -48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-88 -4 48) (-80 -4 48) (-80 -16 48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-88 -4 48) (-88 -16 48) (-88 -16 -48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(-80 -4 -48) (-80 -16 -48) (-80 -16 48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-80 -4 48) (-88 -4 48) (-88 -4 -48)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(-80 -16 -48) (-88 -16 -48) (-88 -16 48)"
+			"material" "METAL/METALWALL005B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 169 226"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "1106"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/smgs/mac10.vmf"
+	"origin" "76 2 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1125"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/smgs/mp9.vmf"
+	"origin" "81 2 14.063"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1141"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/smgs/mp7.vmf"
+	"origin" "75 2 30"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1157"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/smgs/bizon.vmf"
+	"origin" "73 2 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "1181"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/usp_silencer.vmf"
+	"origin" "48 2 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1199"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/hkp2000.vmf"
+	"origin" "44 2 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "1218"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/revolver.vmf"
+	"origin" "44 2 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "1234"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/deagle.vmf"
+	"origin" "44 2 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "1250"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/glock.vmf"
+	"origin" "44 2 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "1284"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/fiveseven.vmf"
+	"origin" "44 2 2"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "1303"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/p250.vmf"
+	"origin" "44 2 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "1319"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/elite.vmf"
+	"origin" "44 4 -14"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "1335"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/pistols/tec9.vmf"
+	"origin" "44 2 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "1052"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/smgs/ump45.vmf"
+	"origin" "76 3 -15"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "700"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/rifles/famas.vmf"
+	"origin" "-61 3 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "729"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/rifles/galilar.vmf"
+	"origin" "-62 3 -20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "732"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/rifles/scoped/sg556.vmf"
+	"origin" "-62 2 -34"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "766"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/rifles/scoped/aug.vmf"
+	"origin" "-18 3 -34"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "798"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/snipers/awp.vmf"
+	"origin" "1 3 34"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "838"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/snipers/ssg08.vmf"
+	"origin" "2 3 20"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "868"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/smgs/p90.vmf"
+	"origin" "77 3 -29"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "949"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/snipers/g3sg1.vmf"
+	"origin" "-3 3 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "971"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/snipers/scar20.vmf"
+	"origin" "1 3 -9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "618"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/rifles/m4a1_silencer.vmf"
+	"origin" "-54 3 35.4395"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "634"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/rifles/m4a1.vmf"
+	"origin" "-54 3 21"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "668"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/custom/weapon_rack/rifles/ak47.vmf"
+	"origin" "-54 3 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

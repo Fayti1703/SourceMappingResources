@@ -1,0 +1,1090 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6969"
+	"mapversion" "8"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "Rifles"
+		"visgroupid" "4"
+		"color" "206 167 148"
+	}
+	visgroup
+	{
+		"name" "Pistols"
+		"visgroupid" "5"
+		"color" "107 136 185"
+	}
+	visgroup
+	{
+		"name" "SMGs"
+		"visgroupid" "6"
+		"color" "220 141 226"
+	}
+	visgroup
+	{
+		"name" "Snipers"
+		"visgroupid" "7"
+		"color" "193 214 127"
+	}
+	visgroup
+	{
+		"name" "Sealant"
+		"visgroupid" "9"
+		"color" "251 216 137"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "8"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
+	solid
+	{
+		"id" "251"
+		side
+		{
+			"id" "1"
+			"plane" "(-64 32 80) (-48 32 80) (-48 -96 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 64] 0.5"
+			"vaxis" "[0 -1 0 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-64 -96 -64) (-48 -96 -64) (-48 32 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 64] 0.5"
+			"vaxis" "[0 -1 0 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-64 32 80) (-64 -96 80) (-64 -96 -64)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 1 0 192] 0.5"
+			"vaxis" "[0 0 -1 135.529] 0.53125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-48 32 -64) (-48 -96 -64) (-48 -96 80)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 1 0 192] 0.5"
+			"vaxis" "[0 0 -1 142.222] 0.5625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-48 32 80) (-64 32 80) (-64 32 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 64] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-48 -96 -64) (-64 -96 -64) (-64 -96 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 64] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 115 240"
+			"visgroupid" "9"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "259"
+		side
+		{
+			"id" "18"
+			"plane" "(80 32 80) (96 32 80) (96 -96 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 -96] 0.5"
+			"vaxis" "[0 -1 0 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(80 -96 -64) (96 -96 -64) (96 32 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 -96] 0.5"
+			"vaxis" "[0 -1 0 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(80 32 80) (80 -96 80) (80 -96 -64)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 1 0 192] 0.5"
+			"vaxis" "[0 0 -1 142.222] 0.5625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(96 32 -64) (96 -96 -64) (96 -96 80)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[0 1 0 192] 0.5"
+			"vaxis" "[0 0 -1 135.529] 0.53125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(96 32 80) (80 32 80) (80 32 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 -96] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(96 -96 -64) (80 -96 -64) (80 -96 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 -96] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 115 240"
+			"visgroupid" "9"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "260"
+		side
+		{
+			"id" "30"
+			"plane" "(80 48 80) (80 32 80) (-48 32 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 32] 0.5"
+			"vaxis" "[-1 0 0 68.2637] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-48 48 -64) (-48 32 -64) (80 32 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 32] 0.5"
+			"vaxis" "[-1 0 0 68.2637] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(80 48 80) (-48 48 80) (-48 48 -64)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 0 -1 142] 0.563"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(80 32 -64) (-48 32 -64) (-48 32 80)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 0 -1 142.222] 0.5625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(80 32 80) (80 48 80) (80 48 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 32] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(-48 32 -64) (-48 48 -64) (-48 48 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 32] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 115 240"
+			"visgroupid" "9"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "265"
+		side
+		{
+			"id" "42"
+			"plane" "(80 -96 80) (80 -112 80) (-48 -112 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 0] 0.5"
+			"vaxis" "[-1 0 0 68.2637] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-48 -96 -64) (-48 -112 -64) (80 -112 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 0] 0.5"
+			"vaxis" "[-1 0 0 68.2637] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(80 -96 80) (-48 -96 80) (-48 -96 -64)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 0 -1 142.222] 0.5625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(80 -112 -64) (-48 -112 -64) (-48 -112 80)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 0 -1 142.222] 0.5625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(80 -112 80) (80 -96 80) (80 -96 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 0] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(-48 -112 -64) (-48 -96 -64) (-48 -96 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 -1 0 0] 0.5"
+			"vaxis" "[0 0 -1 8] 0.531"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 115 240"
+			"visgroupid" "9"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "266"
+		side
+		{
+			"id" "43"
+			"plane" "(-48 32 96) (80 32 96) (80 -96 96)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 -1 0 64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-48 -96 80) (80 -96 80) (80 32 80)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 -1 0 64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(-48 32 96) (-48 -96 96) (-48 -96 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(80 32 80) (80 -96 80) (80 -96 96)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(80 32 96) (-48 32 96) (-48 32 80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "48"
+			"plane" "(80 -96 80) (-48 -96 80) (-48 -96 96)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 214 135"
+			"visgroupid" "9"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "267"
+		side
+		{
+			"id" "60"
+			"plane" "(-48 32 -64) (80 32 -64) (80 -96 -64)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 -1 0 64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(-48 -96 -80) (80 -96 -80) (80 32 -80)"
+			"material" "DEV/DEV_MEASURECRATE01"
+			"uaxis" "[1 0 0 96] 0.5"
+			"vaxis" "[0 -1 0 64] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-48 32 -64) (-48 -96 -64) (-48 -96 -80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(80 32 -80) (80 -96 -80) (80 -96 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(80 32 -64) (-48 32 -64) (-48 32 -80)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(80 -96 -80) (-48 -96 -80) (-48 -96 -64)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 214 135"
+			"visgroupid" "9"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "398"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_healthshot"
+	"weapon_healthshot" "1"
+	"origin" "-32 -80 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "410"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_hegrenade"
+	"weapon_hegrenade" "1"
+	"origin" "0 -80 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "428"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_smokegrenade"
+	"weapon_smokegrenade" "1"
+	"origin" "0 -80 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "434"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_flashbang"
+	"weapon_flashbang" "1"
+	"origin" "32 -80 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "444"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_decoy"
+	"weapon_decoy" "1"
+	"origin" "32 -80 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "450"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_molotov"
+	"weapon_mototov" "1"
+	"origin" "64 -80 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "460"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_incgrenade"
+	"weapon_incgrenade" "1"
+	"origin" "64 -80 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "89"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_hkp2000"
+	"weapon_hkp2000" "1000"
+	"origin" "0 0 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "95"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_fiveseven"
+	"weapon_fiveseven" "1000"
+	"origin" "-32 0 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_p250"
+	"weapon_fiveseven" "1000"
+	"origin" "-32 -32 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "107"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_elite"
+	"weapon_elite" "1000"
+	"origin" "-32 -64 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "115"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_tec9"
+	"weapon_tec9" "1000"
+	"origin" "0 -32 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "161"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_glock"
+	"weapon_glock" "1000"
+	"origin" "32 -32 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "167"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_revolver"
+	"weapon_revolver" "1000"
+	"origin" "32 -64 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "173"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_deagle"
+	"weapon_deagle" "1000"
+	"origin" "0 -64 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "183"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_mp7"
+	"weapon_mp7" "1000"
+	"origin" "-32 0 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "6"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "191"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_mp9"
+	"weapon_mp9" "1000"
+	"origin" "0 0 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "6"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "197"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_ump45"
+	"weapon_ump45" "1000"
+	"origin" "32 0 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "6"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "203"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_mac10"
+	"weapon_mac10" "1000"
+	"origin" "-32 -32 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "6"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "209"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_bizon"
+	"weapon_bizon" "1000"
+	"origin" "0 -32 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "6"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "215"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_p90"
+	"weapon_p90" "1000"
+	"origin" "32 -32 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "6"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "223"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_awp"
+	"weapon_awp" "1000"
+	"origin" "-32 0 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "231"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_ssg08"
+	"weapon_ssg08" "1000"
+	"origin" "0 0 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "239"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_scar20"
+	"weapon_scar20" "1000"
+	"origin" "-32 -32 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "245"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_g3sg1"
+	"weapon_g3sg1" "1000"
+	"origin" "0 -32 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_m4a1"
+	"weapon_m4a1" "1000"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "4"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_m4a1_silencer"
+	"weapon_m4a1_silencer" "1000"
+	"origin" "32 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "4"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_ak47"
+	"weapon_ak47" "1000"
+	"origin" "0 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "4"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_galilar"
+	"weapon_galilar" "1000"
+	"origin" "32 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "4"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_famas"
+	"weapon_famas" "1000"
+	"origin" "-32 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "4"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "66"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_aug"
+	"weapon_aug" "1000"
+	"origin" "-32 -32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "4"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "72"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_sg556"
+	"weapon_sg556" "1000"
+	"origin" "-32 -64 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "4"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "78"
+	"classname" "game_player_equip"
+	"spawnflags" "5"
+	"targetname" "@equip_usp_silencer"
+	"weapon_usp_silencer" "1000"
+	"origin" "32 0 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "5"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
