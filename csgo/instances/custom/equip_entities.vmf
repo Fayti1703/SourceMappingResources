@@ -678,7 +678,7 @@ entity
 	"classname" "game_player_equip"
 	"spawnflags" "5"
 	"targetname" "@equip_p250"
-	"weapon_fiveseven" "1000"
+	"weapon_p250" "1000"
 	"origin" "-32 -32 -32"
 	editor
 	{
