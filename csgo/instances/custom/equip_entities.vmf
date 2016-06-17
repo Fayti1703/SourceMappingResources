@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7152"
-	"mapversion" "9"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -695,7 +695,7 @@ entity
 	"classname" "game_player_equip"
 	"spawnflags" "5"
 	"targetname" "@equip_p250"
-	"weapon_fiveseven" "1000"
+	"weapon_p250" "1000"
 	"origin" "-32 -32 -32"
 	editor
 	{
