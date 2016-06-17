@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6969"
-	"mapversion" "8"
+	"editorbuild" "7152"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -521,6 +521,23 @@ world
 }
 entity
 {
+	"id" "634"
+	"classname" "game_player_equip"
+	"spawnflags" "1"
+	"targetname" "@equip_knife"
+	"weapon_knife" "1"
+	"origin" "16 -80 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "7"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "398"
 	"classname" "game_player_equip"
 	"spawnflags" "1"
@@ -678,7 +695,7 @@ entity
 	"classname" "game_player_equip"
 	"spawnflags" "5"
 	"targetname" "@equip_p250"
-	"weapon_p250" "1000"
+	"weapon_fiveseven" "1000"
 	"origin" "-32 -32 -32"
 	editor
 	{
